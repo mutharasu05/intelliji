@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 import static io.cucumber.core.snippets.SnippetType.CAMELCASE;
 
 @CucumberOptions(
-        features ={"src/test/java/features/login.feature"},
+        features ={"src/test/java/features/addToCart.feature"},
         dryRun =false,
         glue = "Steps",
         snippets = CucumberOptions.SnippetType.CAMELCASE,

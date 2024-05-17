@@ -12,15 +12,16 @@ import static org.testng.Assert.assertTrue;
 
 public class loginSteps {
     WebDriver driver;
-    @Given("User should navigate to the application")
-    public void userShouldNavigateToTheApplication() {
-        driver=new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("https://demowebshop.tricentis.com/");
-    }
+//    @Given("User should navigate to the application")
+//    public void userShouldNavigateToTheApplication() {
+//        driver=new ChromeDriver();
+//        driver.manage().window().maximize();
+//        driver.get("https://demowebshop.tricentis.com/");
+//    }
     @Given("User clicks on the login links")
     public void userClicksOnTheLoginLinks() {
         driver.findElement(By.xpath("//a[.='Log in']")).click();
+
 
     }
 //    @Given("User enter the username as mutharasu0527@gmail.com")
